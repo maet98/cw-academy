@@ -11,7 +11,10 @@ crate-type = ["cdylib", "rlib"]
 cosmwasm-std = "1.0.0"
 serde = "1.0.0"
 cw-storage-plus = "0.13.4"
-thiserror = "1.0.0"
+schemars = "0.8.11"
+cosmwasm-schema = "1.1.5"
+thiserror = "1.0.37"
+
 
 [dev-dependencies]
 cw-multi-test = "0.14.0"
